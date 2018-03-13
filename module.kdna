@@ -1,0 +1,24 @@
+{
+  "name": "tb-light-hardware",
+  "description": "Firmware for tb-light-hardware",
+  "version": "0.0.1",
+  "semantic_type": "firmware",
+  "contents": [
+    {
+      "semantic_type": "firmware/source",
+      "extension": ".c,.h",
+      "path": ".,PDD"
+    },
+    {
+      "semantic_type": "firmware/compile",
+      "extension": ".ld",
+      "path": "."
+    },
+    {
+      "semantic_type": "electrical",
+      "path": "github.com/kambria-platform/tb-light-hardware"
+    }
+  ]
+}
+
+
